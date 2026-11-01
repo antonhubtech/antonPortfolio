@@ -60,7 +60,7 @@ export default function Preloader({ onDone }: { onDone: () => void }) {
           </svg>
           <svg viewBox="0 0 100 100" className="absolute inset-0 h-full w-full">
             <motion.path
-              d="M30 34 L50 68 L70 34"
+              d="M28 70 L50 30 L72 70 M36 56 H64"
               fill="none"
               stroke="#e9edf7"
               strokeWidth="5"
