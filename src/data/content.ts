@@ -40,7 +40,7 @@ export const profile = {
   // Contact form: paste a form-service endpoint here (e.g. a Formspree URL, "https://formspree.io/f/xxxx").
   // While empty, the form validates but does NOT send anything and says so honestly.
   formEndpoint: '' as string,
-  responseTime: '[YOUR RESPONSE TIME]',
+  responseTime: 'Every 9PM',
   socials: [
     { id: 'linkedin', label: 'LinkedIn', href: '' }, // [YOUR SOCIAL MEDIA LINKS]
     { id: 'instagram', label: 'Instagram', href: '' },
