@@ -10,7 +10,7 @@ export function Logo({ className = '' }: { className?: string }) {
     <Link to="home" aria-label={`${profile.name} — home`} className={`group flex items-center gap-3 ${className}`}>
       <span className="relative grid h-10 w-10 place-items-center rounded-xl border border-white/10 bg-gradient-to-br from-azure/25 to-violet/25">
         <svg viewBox="0 0 32 32" className="h-5 w-5 transition-transform duration-500 group-hover:rotate-[360deg]" aria-hidden>
-          <path d="M8 9l8 15 8-15" fill="none" stroke="#4fe3ff" strokeWidth="3" strokeLinecap="round" strokeLinejoin="round" />
+          <path d="M7 24 L16 8 L25 24 M10 18.5 H22" fill="none" stroke="#4fe3ff" strokeWidth="3" strokeLinecap="round" strokeLinejoin="round" />
         </svg>
       </span>
       <span className="max-w-[9.5rem] truncate font-display text-sm font-semibold tracking-tight sm:max-w-none">{profile.name}</span>
