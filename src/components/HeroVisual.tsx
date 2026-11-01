@@ -87,7 +87,7 @@ export default function HeroVisual() {
           <div className="relative h-full w-full rounded-full bg-[radial-gradient(circle_at_32%_28%,#bff3ff,#4f8bff_38%,#5b3fd1_72%,#1a1450)] shadow-[0_0_80px_10px_rgb(79_139_255/.45),inset_0_-12px_30px_rgb(0_0_20/.5)]">
             <div className="absolute inset-0 rounded-full bg-[radial-gradient(circle_at_70%_80%,transparent_40%,rgb(0_0_0/.35))]" />
             <svg viewBox="0 0 32 32" className="absolute inset-[28%] h-[44%] w-[44%] drop-shadow-[0_2px_8px_rgb(0_0_40/.5)]">
-              <path d="M8 9l8 15 8-15" fill="none" stroke="#fff" strokeWidth="3" strokeLinecap="round" strokeLinejoin="round" />
+              <path d="M7 24 L16 8 L25 24 M10 18.5 H22" fill="none" stroke="#fff" strokeWidth="3" strokeLinecap="round" strokeLinejoin="round" />
             </svg>
           </div>
         </Layer>
