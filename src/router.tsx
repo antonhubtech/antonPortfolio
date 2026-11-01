@@ -112,7 +112,7 @@ export function RouterProvider({ children }: { children: ReactNode }) {
   // Keep the document title in step with the page
   useEffect(() => {
     const label = navItems.find((n) => n.route === route)?.label ?? 'Home';
-    document.title = route === 'home' ? '[YOUR NAME] — Virtual Assistant' : `${label} · [YOUR NAME] — Virtual Assistant`;
+    document.title = route === 'home' ? 'Anton as VA' : `${label} · [YOUR NAME] — Virtual Assistant`;
   }, [route]);
 
   const value = useMemo<RouterCtx>(
