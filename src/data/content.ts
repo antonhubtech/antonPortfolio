@@ -27,12 +27,12 @@ import {
    ──────────────────────────────────────────────────────────────── */
 
 export const profile = {
-  name: '[YOUR NAME]',
+  name: 'Anton',
   monogram: 'VA', // shown in the logo and preloader
   title: '[YOUR PROFESSIONAL TITLE]',
   shortBio: '[YOUR SHORT BIO]',
-  email: '[YOUR EMAIL]',
-  location: '[YOUR LOCATION]',
+  email: 'argosoanthony@gmail.com',
+  location: 'Bulacan Philippines',
   availability: 'Available for New Projects',
   photoLabel: '[YOUR PROFILE PHOTO]',
   // Optional: put a file in /public (e.g. /public/me.jpg) and set photoUrl: './me.jpg'
