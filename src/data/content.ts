@@ -36,7 +36,7 @@ export const profile = {
   availability: 'Available for New Projects',
   photoLabel: '[YOUR PROFILE PHOTO]',
   // Optional: put a file in /public (e.g. /public/me.jpg) and set photoUrl: './me.jpg'
-  photoUrl: '' as string,
+  photoUrl: 'https://kommodo.ai/i/rCYtbdib2bXzzXoQbi1B' as string,
   // Contact form: paste a form-service endpoint here (e.g. a Formspree URL, "https://formspree.io/f/xxxx").
   // While empty, the form validates but does NOT send anything and says so honestly.
   formEndpoint: '' as string,
