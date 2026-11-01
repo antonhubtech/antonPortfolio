@@ -29,7 +29,7 @@ import {
 export const profile = {
   name: 'Anton',
   monogram: 'VA', // shown in the logo and preloader
-  title: '[YOUR PROFESSIONAL TITLE]',
+  title: 'Freelance Virtual Assistant',
   shortBio: '[YOUR SHORT BIO]',
   email: 'argosoanthony@gmail.com',
   location: 'Bulacan Philippines',
